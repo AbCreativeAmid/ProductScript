@@ -73,10 +73,10 @@ class Write_products():
 
     def connect_odoo(self):
         """ connect to odoo through xml rpc and update the images of products """
-        url ="http://127.0.0.1:8000"
-        db = "script"
-        username = "admin"
-        password = "admin"
+        url =""
+        db = ""
+        username = ""
+        password = ""
         common = None
         try:
             common   = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
